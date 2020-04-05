@@ -2,6 +2,8 @@ require 'yaml'
 
 def load_library(file_path)
   emojis = YAML.load_file(file_path)
+  container = {}
+  
   
 end
 
