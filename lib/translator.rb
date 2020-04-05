@@ -4,7 +4,8 @@ def load_library(file_path)
   emojis = YAML.load_file(file_path)
   container = {}
   
-  emojis.each do |
+  emojis.each do |name, face|
+    
 end
 
 def get_japanese_emoticon
