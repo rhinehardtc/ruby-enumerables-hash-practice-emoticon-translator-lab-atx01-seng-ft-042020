@@ -13,12 +13,12 @@ def load_library(file_path)
   container
 end
 
-def get_japanese_emoticon(file_path, emoticon)
+def get_japanese_emoticon(file_path, emoji)
   library = load_library(file_path)
-  emoticon = library.keys.find do |key|
-    library[key][:english] == emoticon
+  emoji = library.key.find do |key|
+    library[key][:english] == emoji
   end
-  emoticon ? library[emoticon][:japanese] : "Sorry, that emoticon was not found"
+  emoji ? library[emoji][:japanese] : "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning(file_path, japan_emoji)
