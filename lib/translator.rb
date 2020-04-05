@@ -6,7 +6,7 @@ def load_library(file_path)
   
   emojis.each do |name, face|
     container[name] = name
-    container[name][face]
+    container[name][:english] = 
 end
 
 def get_japanese_emoticon
