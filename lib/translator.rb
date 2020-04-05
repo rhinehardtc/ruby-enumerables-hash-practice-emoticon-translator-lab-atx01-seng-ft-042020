@@ -1,4 +1,5 @@
 require 'yaml'
+require 'pry'
 
 def load_library(file_path)
   emojis = YAML.load_file(file_path)
@@ -13,6 +14,7 @@ def load_library(file_path)
 end
 
 def get_japanese_emoticon(english_emoji)
+  library = load_library(file_path)
   
 end
 
