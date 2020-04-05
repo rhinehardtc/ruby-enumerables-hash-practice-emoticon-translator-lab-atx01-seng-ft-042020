@@ -15,7 +15,7 @@ end
 
 def get_japanese_emoticon(file_path, english_emoji)
   library = load_library(file_path)
-  container.each do |index|
+  library.key.find do |key|
     japan_emoji = 
   
 end
